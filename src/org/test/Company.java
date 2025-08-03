@@ -8,6 +8,11 @@ public class Company extends Employee {
 		System.out.println("Company Id is 1000");
 
 	}
+	
+	private void Ranjana_Branch1() {
+		System.out.println("Code for Ranjana-Branch1");
+
+	}
 	public static void main(String[] args) {
 		
 		Company c=new Company();
@@ -24,4 +29,6 @@ public class Company extends Employee {
 		ClientDetails client=new ClientDetails();
 		client.clientId();
 	}
+	
+	
 }
